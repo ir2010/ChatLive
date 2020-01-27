@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
 
                 msgText.setText(model.getMessageText());
                 msgUser.setText(model.getMessageUser());
-                //msgTime.setText(String.valueOf(model.getMessageTime()));
+                msgTime.setText(String.valueOf(model.getMessageTime()));
             }
         };
         listOfMsgs.setAdapter(adapter);
