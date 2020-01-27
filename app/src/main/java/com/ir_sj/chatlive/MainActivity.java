@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         storage = FirebaseStorage.getInstance();
         storageReference = storage.getReference();
         sref = storageReference.child("images/" + UUID.randomUUID().toString());
-        //downloadImage();
+        downloadImage();
     }
 
     @Override
